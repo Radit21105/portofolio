@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portofolio Raditya Ramadhan</title>
+  <!-- Font formal -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto Slab', serif;
+    }
+    body {
+      background-color: #e0e0e0;
+      color: #5C4033;
+      padding: 30px;
+    }
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      background-color: #f4f4f4;
+      border-radius: 14px;
+      box-shadow: 0 0 18px rgba(0, 0, 0, 0.2);
+      overflow: hidden;
+      opacity: 0;
+      transform: translateY(50px);
+      animation: fadeSlideIn 1.2s ease-out forwards;
+    }
+    @keyframes fadeSlideIn {
+      0% {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    header {
+      display: flex;
+      padding: 30px;
+      gap: 30px;
+      background-color: #dcdcdc;
+      align-items: center;
+      border-bottom: 2px solid #aaa;
+      font-weight: bold;
+    }
+    .profile-pic {
+      width: 130px;
+      height: 173px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 2px solid #999;
+    }
+    .intro {
+      flex: 1;
+    }
+    .intro h1 {
+      font-size: 30px;
+    }
+    .intro h3 {
+      font-size: 18px;
+      margin-top: 4px;
+    }
+    .intro p.nim {
+      font-size: 16px;
+      margin-top: 4px;
+      font-weight: 600;
+      color: #6b4c36;
+    }
+    section {
+      padding: 25px 30px;
+      border-top: 1px solid #bbb;
+    }
+    h2 {
+      color: #8B4513;
+      margin-bottom: 15px;
+      font-size: 22px;
+    }
+    p, li {
+      color: #5C4033;
+      line-height: 1.6;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    ul li img {
+      width: 20px;
+      height: 20px;
+    }
+    .contact-icons {
+      display: flex;
+      gap: 30px;
+      margin-top: 10px;
+      flex-wrap: wrap;
+    }
+    .contact-icons a {
+      text-decoration: none;
+      color: #5C4033;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .contact-icons img {
+      width: 20px;
+      height: 20px;
+    }
+    @media (max-width: 650px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .profile-pic {
+        width: 100px;
+        height: 133px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="https://i.imgur.com/OOMasTx.jpeg" alt="Foto Raditya" class="profile-pic" />
+      <div class="intro">
+        <h1>Raditya Ramadhan</h1>
+        <h3>Mahasiswa Teknik Komputer</h3>
+        <p class="nim">5231011001</p>
+      </div>
+    </header>
+
+    <section>
+      <h2>Data Diri</h2>
+      <p><strong>Nama:</strong> Raditya Ramadhan</p>
+      <p><strong>Tempat Lahir:</strong> Bukit Batu, Bengkalis, Riau</p>
+      <p><strong>Alamat:</strong> Pogung Lor, Mlati, Sleman, Yogyakarta</p>
+    </section>
+
+    <section>
+      <h2>Tentang Saya</h2>
+      <p>Saya adalah mahasiswa aktif Teknik Komputer di Universitas Teknologi Yogyakarta yang berasal dari Riau. Saya sangat antusias terhadap perkembangan teknologi dan berkomitmen untuk terus belajar dalam bidang digitalisasi dan pengembangan sistem berbasis teknologi. Kekuatan saya ada pada kemampuan adaptasi terhadap teknologi baru, pemrograman perangkat keras, serta kerja sama tim dalam proyek berbasis teknologi.</p>
+    </section>
+
+    <section>
+      <h2>Keahlian</h2>
+      <ul>
+        <li><img src="https://img.icons8.com/color/48/000000/source-code.png" alt="Web" /> Web Developer (HTML, CSS, JS)</li>
+        <li><img src="https://img.icons8.com/color/48/000000/arduino.png" alt="Arduino" /> Arduino Programming</li>
+        <li><img src="https://img.icons8.com/fluency/48/artificial-intelligence.png" alt="Digitalisasi" /> Adaptasi terhadap teknologi baru & digitalisasi</li>
+        <li><img src="https://img.icons8.com/color/48/test-tube.png" alt="R&D" /> Pengembangan produk inovatif (R&D berbasis teknologi)</li>
+        <li><img src="https://img.icons8.com/fluency/48/internet-of-things.png" alt="IoT" /> Internet of Things (IoT) & automasi</li>
+        <li><img src="https://img.icons8.com/color/48/motherboard.png" alt="Hardware" /> Pemrograman & perakitan perangkat keras</li>
+        <li><img src="https://img.icons8.com/color/48/idea.png" alt="Problem" /> Problem solving berbasis teknologi</li>
+        <li><img src="https://img.icons8.com/color/48/project.png" alt="Project" /> Project-based learning & riset teknologi</li>
+        <li><img src="https://img.icons8.com/color/48/conference-call.png" alt="Team" /> Kolaborasi tim & komunikasi teknis</li>
+        <li><img src="https://img.icons8.com/color/48/diploma.png" alt="Sertifikasi" /> Sertifikasi: CCNA, CompTIA, Arduino</li>
+        <li><img src="https://img.icons8.com/color/48/data-configuration.png" alt="Struktur Data" /> Pemrograman sistem & struktur data</li>
+        <li><img src="https://img.icons8.com/color/48/microchip.png" alt="Embedded" /> Implementasi sistem tertanam (Embedded System)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Riwayat Kerja</h2>
+      <ul>
+        <li><img src="https://img.icons8.com/color/48/000000/oil-industry.png" alt="Pertamina" /> PT Pertamina – Staf Magang Teknik</li>
+        <li><img src="https://img.icons8.com/color/48/000000/shop.png" alt="Toko Kue" /> Admin Toko Kue – Manajemen stok & penjualan</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Kontak</h2>
+      <div class="contact-icons">
+        <a href="https://wa.me/628136462047" target="_blank" rel="noopener noreferrer">
+          <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WA" /> WhatsApp
+        </a>
+        <a href="mailto:raditr613@gmail.com" target="_blank" rel="noopener noreferrer">
+          <img src="https://img.icons8.com/color/48/000000/gmail-new.png" alt="Gmail" /> Gmail
+        </a>
+        <a href="https://instagram.com/radityramadhan" target="_blank" rel="noopener noreferrer">
+          <img src="https://img.icons8.com/fluency/48/000000/instagram-new.png" alt="Instagram" /> Instagram
+        </a>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
